@@ -431,11 +431,16 @@ function buildListingRows(s, e){
     g.likes+=v.lk; g.comments+=v.cm; g.shares+=v.sh;
   }
   for (const L of (LIVE.leads||[])){
-    if (!L.lid) continue;
+    if (!L.lid && !L.oc) continue;
     if (L.d && (L.d<s || L.d>e)) continue;
-    const key = '现房|'+L.lid;
+    // 现房线索按房源ID归行；期房线索按社区名归行
+    const key = L.lid ? '现房|'+L.lid : '期房|'+L.oc;
     let g = map.get(key);
-    if (!g){ const mt=(LIVE.listing_meta||{})[L.lid]||{}; g = blank('现房', L.lid, mt.lc, mt.lx); map.set(key,g); }
+    if (!g){
+      if (L.lid){ const mt=(LIVE.listing_meta||{})[L.lid]||{}; g = blank('现房', L.lid, mt.lc, mt.lx); }
+      else { g = blank('期房', L.oc, L.oc, ''); }
+      map.set(key,g);
+    }
     g.newLeads++; g.qualified+=L.q; g.meetings+=L.m;
   }
   return [...map.values()].map(enrich);
@@ -739,7 +744,7 @@ function switchView(view){
       : '日期区间仅展示（当前数据为整窗口聚合）。';
     document.getElementById('footNote').innerHTML += view==='account'
       ? ` <b>⚠ 数据说明：</b>${dateNote} 线索来自 CRM（合格=曾达 Qualified / 约面=曾达 Viewing，按来源账号匹配）。`
-      : ` <b>⚠ 数据说明：</b>${dateNote} 视频按「标题房源码 → 房源平台关联」归因；现房线索按房源ID归因，期房线索/私信为账号级、置 0。`;
+      : ` <b>⚠ 数据说明：</b>${dateNote} 视频按「标题房源码 → 房源平台关联」归因；线索按 CRM 房源ID归因（现房→房源ID行，期房→社区行）；私信为账号级、置 0。`;
   }
 
   render();
