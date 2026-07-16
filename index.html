@@ -389,10 +389,63 @@ const LEAD_COLS = [
   { key:'meetingRate', label:'约面率', type:'rate', grade:[0.30,0.20] },
 ];
 
-// 真实数据（data.js）优先，缺失回退示例
-const LIVE = (typeof window !== 'undefined' && window.DASHBOARD_DATA) ? window.DASHBOARD_DATA : null;
+// 真实数据优先，缺失回退示例。http(s) 环境下启动时会用 no-store 拉最新 data.json 防缓存（见 boot）。
+let LIVE = (typeof window !== 'undefined' && window.DASHBOARD_DATA) ? window.DASHBOARD_DATA : null;
 const SRC_ACCOUNTS = LIVE && LIVE.accounts && LIVE.accounts.length ? LIVE.accounts : ACCOUNTS;
 const SRC_LISTINGS = LIVE && LIVE.listings && LIVE.listings.length ? LIVE.listings : LISTINGS;
+// 明细模式：数据带按天明细(videos/leads)时，日期区间为真实过滤（按视频发布日/线索入库日聚合）
+let DETAIL = false;
+
+function rangeVals(){
+  const s = document.getElementById('dateStart').value || '0000-01-01';
+  const e = document.getElementById('dateEnd').value || '9999-12-31';
+  return [s, e];
+}
+
+// 账号维度：视频按发布日、线索按入库日过滤聚合；私信为账号级累计（不随日期变化）
+function buildAccountRows(s, e){
+  return LIVE.accounts.map(a => {
+    const g = {videos:0,totalVV:0,maxVV:0,likes:0,comments:0,shares:0};
+    for (const v of LIVE.videos){
+      if (v.h===a.id && v.d>=s && v.d<=e){
+        g.videos++; g.totalVV+=v.vv; g.maxVV=Math.max(g.maxVV,v.vv);
+        g.likes+=v.lk; g.comments+=v.cm; g.shares+=v.sh;
+      }
+    }
+    let nl=0,q=0,m=0;
+    for (const L of (LIVE.leads||[])){
+      if (L.h===a.id && (!L.d || (L.d>=s && L.d<=e))){ nl++; q+=L.q; m+=L.m; }
+    }
+    return enrich({ id:a.id, account:a.account, owner:a.owner, group:a.group, category:a.category,
+      ...g, dms:a.dms||0, replies:a.replies||0, whatsapp:a.whatsapp||0,
+      newLeads:nl, qualified:q, meetings:m });
+  });
+}
+
+// 房源维度：期房按社区、现房按房源ID 分组
+function buildListingRows(s, e){
+  const map = new Map();
+  const blank = (type,name,lc,lx) => ({ id:name, type, name, community:lc||'', huxing:lx||'',
+    videos:0,totalVV:0,maxVV:0,likes:0,comments:0,shares:0,
+    dms:0,replies:0,whatsapp:0, newLeads:0,qualified:0,meetings:0 });
+  for (const v of LIVE.videos){
+    if (!v.lt || v.d<s || v.d>e) continue;
+    const key = v.lt+'|'+v.ln;
+    let g = map.get(key);
+    if (!g){ g = blank(v.lt, v.ln, v.lc, v.lx); map.set(key,g); }
+    g.videos++; g.totalVV+=v.vv; g.maxVV=Math.max(g.maxVV,v.vv);
+    g.likes+=v.lk; g.comments+=v.cm; g.shares+=v.sh;
+  }
+  for (const L of (LIVE.leads||[])){
+    if (!L.lid) continue;
+    if (L.d && (L.d<s || L.d>e)) continue;
+    const key = '现房|'+L.lid;
+    let g = map.get(key);
+    if (!g){ const mt=(LIVE.listing_meta||{})[L.lid]||{}; g = blank('现房', L.lid, mt.lc, mt.lx); map.set(key,g); }
+    g.newLeads++; g.qualified+=L.q; g.meetings+=L.m;
+  }
+  return [...map.values()].map(enrich);
+}
 
 const VIEWS = {
   account: {
@@ -431,6 +484,15 @@ const VIEWS = {
     searchKeys: ['id','name'],
   }
 };
+
+// 根据当前 LIVE 重建数据源（boot 拉到最新 data.json 后调用）
+function refreshSources(){
+  const A = LIVE && LIVE.accounts && LIVE.accounts.length ? LIVE.accounts : ACCOUNTS;
+  const L = LIVE && LIVE.listings && LIVE.listings.length ? LIVE.listings : LISTINGS;
+  VIEWS.account.data = A.map(enrich);
+  VIEWS.listing.data = L.map(enrich);
+  DETAIL = !!(LIVE && Array.isArray(LIVE.videos) && LIVE.videos.length);
+}
 
 /* ---------- 状态 ---------- */
 let currentView = 'account';
@@ -535,7 +597,9 @@ function cellHTML(row, col){
 
 function filterAndSort(){
   const v = VIEWS[currentView];
-  let rows = v.data.slice();
+  let rows = DETAIL
+    ? (currentView==='account' ? buildAccountRows(...rangeVals()) : buildListingRows(...rangeVals()))
+    : v.data.slice();
   if (filters.owner) rows = rows.filter(r => r.owner===filters.owner);
   if (filters.group) rows = rows.filter(r => r.group===filters.group);
   if (filters.category) rows = rows.filter(r => r[v.catKey]===filters.category);
@@ -662,9 +726,12 @@ function switchView(view){
     : '期房显示社区名，现房显示具体房源型号。派生指标：<code>平均VV=总VV/视频数</code> · <code>点赞率=总点赞/总VV</code> · <code>合格率=转WhatsApp数/私信数</code> · <code>约面率=约面/新增</code>。';
 
   if (LIVE) {
+    const dateNote = DETAIL
+      ? '日期区间为真实过滤：视频按<b>发布日</b>、线索按<b>入库日</b>；视频指标为截至快照日(T+1)的累计值；私信为账号级累计，不随日期变化。'
+      : '日期区间仅展示（当前数据为整窗口聚合）。';
     document.getElementById('footNote').innerHTML += view==='account'
-      ? ' <b>⚠ 数据说明：</b>线索来自 CRM（新增=全部线索 / 合格=曾达 Qualified / 约面=曾达 Viewing，按来源账号匹配）；私信为 VidFlow 私信任务累积计数。'
-      : ' <b>⚠ 数据说明：</b>视频按「标题房源码 → 房源平台关联」归因；私信/线索为账号级，无法按房源拆分，故房源维度置 0。';
+      ? ` <b>⚠ 数据说明：</b>${dateNote} 线索来自 CRM（合格=曾达 Qualified / 约面=曾达 Viewing，按来源账号匹配）。`
+      : ` <b>⚠ 数据说明：</b>${dateNote} 视频按「标题房源码 → 房源平台关联」归因；现房线索按房源ID归因，期房线索/私信为账号级、置 0。`;
   }
 
   render();
@@ -680,11 +747,13 @@ document.getElementById('fOwner').addEventListener('change', e => { filters.owne
 document.getElementById('fGroup').addEventListener('change', e => { filters.group = e.target.value; render(); });
 document.getElementById('fCategory').addEventListener('change', e => { filters.category = e.target.value; render(); });
 document.querySelectorAll('#quick button').forEach(b =>
-  b.addEventListener('click', () => applyQuickRange(b.dataset.range)));
+  b.addEventListener('click', () => { applyQuickRange(b.dataset.range); render(); }));
+document.getElementById('dateStart').addEventListener('change', () => { setQuickActive(''); render(); });
+document.getElementById('dateEnd').addEventListener('change', () => { setQuickActive(''); render(); });
 document.getElementById('btnQuery').addEventListener('click', render);
 document.getElementById('btnReset').addEventListener('click', () => switchView(currentView));
 
-(function renderSrc(){
+function renderSrc(){
   const el = document.getElementById('srcLine');
   if (!el) return;
   if (LIVE){
@@ -696,9 +765,25 @@ document.getElementById('btnReset').addEventListener('click', () => switchView(c
     el.innerHTML = '<span class="srcpill sample"><span class="dot"></span>示例数据</span>'
       + '<span class="srcmeta">未加载 data.js —— 运行 <code>python3 sync_data.py</code> 拉取真实数据后刷新</span>';
   }
-})();
+}
 
-switchView('account');
+/* 启动：http(s) 环境下用 no-store 拉最新 data.json（绕过浏览器对 data.js 的缓存，
+   保证每天 8 点更新后打开页面即最新）；file:// 本地双击打开则直接用 data.js。 */
+async function boot(){
+  if (location.protocol === 'http:' || location.protocol === 'https:'){
+    try {
+      const r = await fetch('data.json', {cache: 'no-store'});
+      if (r.ok){
+        const d = await r.json();
+        if (d && d.accounts) LIVE = d;
+      }
+    } catch(e){ /* 拉取失败则退回 data.js 内容 */ }
+  }
+  refreshSources();
+  renderSrc();
+  switchView('account');
+}
+boot();
 </script>
 </body>
 </html>
