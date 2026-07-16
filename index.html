@@ -573,12 +573,8 @@ function cellHTML(row, col){
   const v = row[col.key];
   if (col.type==='text'){
     if (col.primary){
-      let sub = '';
-      if (row.community && row.community !== v) {
-        sub = `<div class="meta">${row.community}${row.huxing ? ' · ' + row.huxing : ''}</div>`;
-      } else if (currentView === 'account' && row.id && row.id !== v) {
-        sub = `<div class="handle">@${row.id}</div>`;
-      }
+      const sub = (currentView === 'account' && row.id && row.id !== v)
+        ? `<div class="handle">@${row.id}</div>` : '';
       return `<td class="txt sticky-l"><div class="name">${v}</div>${sub}</td>`;
     }
     return `<td class="txt"><span class="meta">${v}</span></td>`;
