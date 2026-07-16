@@ -82,8 +82,8 @@
   .tab[aria-selected="true"] { background: var(--green); color: #fff; }
 
   /* KPI row */
-  .kpis { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; margin: 20px 0 22px; }
-  @media (max-width: 1200px) { .kpis { grid-template-columns: repeat(3, 1fr); } }
+  .kpis { display: grid; grid-template-columns: repeat(8, 1fr); gap: 12px; margin: 20px 0 22px; }
+  @media (max-width: 1200px) { .kpis { grid-template-columns: repeat(4, 1fr); } }
   @media (max-width: 640px) { .kpis { grid-template-columns: repeat(2, 1fr); } }
   .kpi {
     background: var(--card); border: 1px solid var(--border); border-radius: 16px;
@@ -512,6 +512,7 @@ function computeKPIs(rows){
     dms: sum('dms'),
     whatsapp: sum('whatsapp'),
     newLeads: sum('newLeads'),
+    qualified: sum('qualified'),
     meetings: sum('meetings'),
     qualifyRate: safeDiv(sum('whatsapp'), sum('dms')),
     meetingRate: safeDiv(sum('meetings'), sum('newLeads')),
@@ -527,6 +528,8 @@ function renderKPIs(rows){
     { label: '总VV', value: nf(k.totalVV), sub: `单篇均 ${nf(safeDiv(k.totalVV,k.videos))}`, accent:'var(--c-video)' },
     { label: '总私信数', value: nf(k.dms), sub: `转WhatsApp ${nf(k.whatsapp)}`, accent:'var(--c-dm)' },
     { label: 'WhatsApp 合格率', value: pct(k.qualifyRate), sub: `${nf(k.whatsapp)} / ${nf(k.dms)}`, accent:'var(--c-dm)' },
+    { label: '新增线索', value: nf(k.newLeads), sub: `合格 ${nf(k.qualified)}`, accent:'var(--c-lead)' },
+    { label: '约面数', value: nf(k.meetings), sub: `来自新增 ${nf(k.newLeads)}`, accent:'var(--c-lead)' },
     { label: '约面率', value: pct(k.meetingRate), sub: `约面 ${nf(k.meetings)} / 新增 ${nf(k.newLeads)}`, accent:'var(--c-lead)' },
   ];
   document.getElementById('kpis').innerHTML = tiles.map(t => `
