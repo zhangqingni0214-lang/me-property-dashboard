@@ -94,12 +94,13 @@
     color: var(--accent, var(--text-primary)); font-variant-numeric: tabular-nums; }
   .kpi .sub { font-size: 12px; color: var(--muted); margin-top: 6px; }
 
-  /* Filter bar */
+  /* Filter bar —— 两行：①日期+快捷区间+下拉筛选 ②搜索+查询 */
   .filterbar {
-    display: flex; align-items: center; gap: 12px 14px; flex-wrap: wrap;
+    display: flex; flex-direction: column; gap: 12px;
     background: var(--card); border: 1px solid var(--border); border-radius: 16px;
     padding: 12px 14px; box-shadow: var(--shadow); margin-bottom: 12px;
   }
+  .frow { display: flex; align-items: center; gap: 12px 14px; flex-wrap: wrap; }
   .fgroup { display: inline-flex; align-items: center; gap: 7px; }
   .flabel { font-size: 12.5px; color: var(--muted); white-space: nowrap; }
   .fdate {
@@ -135,12 +136,6 @@
     font-weight: 600; padding: 8px 22px; border-radius: 10px; cursor: pointer; white-space: nowrap;
   }
   .btn-primary:hover { filter: brightness(1.25); }
-  .btn-ghost {
-    display: inline-flex; align-items: center; gap: 5px;
-    border: 1px solid var(--border-strong); background: var(--surface-1); color: var(--text-secondary);
-    font-family: inherit; font-size: 13px; padding: 8px 14px; border-radius: 8px; cursor: pointer; white-space: nowrap;
-  }
-  .btn-ghost:hover { background: var(--hover); color: var(--text-primary); }
   .toolbar2 { display: flex; align-items: center; margin-bottom: 12px; }
   .spacer { flex: 1; }
   .count { font-size: 12.5px; color: var(--muted); }
@@ -227,29 +222,28 @@
   <div class="kpis" id="kpis"></div>
 
   <div class="filterbar">
-    <div class="fgroup">
-      <span class="flabel">日期</span>
-      <input class="fdate" type="date" id="dateStart" />
-      <span class="tilde">~</span>
-      <input class="fdate" type="date" id="dateEnd" />
+    <div class="frow" id="frow1">
+      <div class="fgroup">
+        <span class="flabel">日期</span>
+        <input class="fdate" type="date" id="dateStart" />
+        <span class="tilde">~</span>
+        <input class="fdate" type="date" id="dateEnd" />
+      </div>
+      <div class="quick" id="quick">
+        <button data-range="yesterday">昨日</button>
+        <button data-range="7" class="active">近7天</button>
+        <button data-range="30">近30天</button>
+      </div>
+      <div class="fgroup" id="grpOwner"><span class="flabel">负责人</span><select class="fsel" id="fOwner"></select></div>
+      <div class="fgroup" id="grpGroup"><span class="flabel">组别</span><select class="fsel" id="fGroup"></select></div>
+      <div class="fgroup"><span class="flabel" id="catLabel">账号类目</span><select class="fsel" id="fCategory"></select></div>
+      <label class="fsearch" id="searchWrap">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
+        <input id="search" type="text" placeholder="搜索账号名/账号id" autocomplete="off" />
+      </label>
+      <button class="btn-primary" id="btnQuery">查询</button>
     </div>
-    <div class="quick" id="quick">
-      <button data-range="yesterday">昨日</button>
-      <button data-range="7" class="active">近7天</button>
-      <button data-range="30">近30天</button>
-    </div>
-    <div class="fgroup" id="grpOwner"><span class="flabel">负责人</span><select class="fsel" id="fOwner"></select></div>
-    <div class="fgroup" id="grpGroup"><span class="flabel">组别</span><select class="fsel" id="fGroup"></select></div>
-    <div class="fgroup"><span class="flabel" id="catLabel">账号类目</span><select class="fsel" id="fCategory"></select></div>
-    <label class="fsearch">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
-      <input id="search" type="text" placeholder="搜索账号名/账号id" autocomplete="off" />
-    </label>
-    <button class="btn-primary" id="btnQuery">查询</button>
-    <button class="btn-ghost" id="btnReset">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 4v6h-6M1 20v-6h6"/><path d="M3.5 9a9 9 0 0114.9-3.4L23 10M1 14l4.6 4.4A9 9 0 0020.5 15"/></svg>
-      刷新
-    </button>
+    <div class="frow" id="frow2"></div>
   </div>
   <div class="toolbar2">
     <div class="spacer"></div>
@@ -712,6 +706,20 @@ function switchView(view){
   const isAcct = view === 'account';
   document.getElementById('grpOwner').style.display = isAcct ? '' : 'none';
   document.getElementById('grpGroup').style.display = isAcct ? '' : 'none';
+  // 布局：账号维度 = 第一行末尾放查询、搜索框独占第二行；房源维度 = 全部一行
+  const frow1 = document.getElementById('frow1');
+  const frow2 = document.getElementById('frow2');
+  const searchWrap = document.getElementById('searchWrap');
+  const btnQuery = document.getElementById('btnQuery');
+  if (isAcct) {
+    frow1.appendChild(btnQuery);
+    frow2.appendChild(searchWrap);
+    frow2.style.display = '';
+  } else {
+    frow1.appendChild(searchWrap);
+    frow1.appendChild(btnQuery);
+    frow2.style.display = 'none';
+  }
   document.querySelectorAll('.tab').forEach(t =>
     t.setAttribute('aria-selected', String(t.dataset.view===view)));
 
@@ -751,7 +759,6 @@ document.querySelectorAll('#quick button').forEach(b =>
 document.getElementById('dateStart').addEventListener('change', () => { setQuickActive(''); render(); });
 document.getElementById('dateEnd').addEventListener('change', () => { setQuickActive(''); render(); });
 document.getElementById('btnQuery').addEventListener('click', render);
-document.getElementById('btnReset').addEventListener('click', () => switchView(currentView));
 
 function renderSrc(){
   const el = document.getElementById('srcLine');
