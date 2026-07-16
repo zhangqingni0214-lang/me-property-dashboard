@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16 13:58",
+  "generated_at": "2026-07-16 19:06",
   "window": {
     "start": "2026-06-17",
     "end": "2026-07-16",
@@ -22,7 +22,7 @@
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
-      "newLeads": 20,
+      "newLeads": 23,
       "qualified": 3,
       "meetings": 0
     },
@@ -60,7 +60,7 @@
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
-      "newLeads": 30,
+      "newLeads": 31,
       "qualified": 2,
       "meetings": 0
     },
@@ -879,7 +879,7 @@
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
-      "newLeads": 1,
+      "newLeads": 2,
       "qualified": 0,
       "meetings": 0
     },
@@ -5259,6 +5259,38 @@
     {
       "d": "2026-07-16",
       "h": "dubai.house1",
+      "lid": "",
+      "oc": "",
+      "q": 0,
+      "m": 0
+    },
+    {
+      "d": "2026-07-16",
+      "h": "zoe.hale8",
+      "lid": "",
+      "oc": "",
+      "q": 0,
+      "m": 0
+    },
+    {
+      "d": "2026-07-16",
+      "h": "lilyokproperty",
+      "lid": "DXB-AC03BB",
+      "oc": "",
+      "q": 0,
+      "m": 0
+    },
+    {
+      "d": "2026-07-16",
+      "h": "zoe.hale8",
+      "lid": "",
+      "oc": "",
+      "q": 0,
+      "m": 0
+    },
+    {
+      "d": "2026-07-16",
+      "h": "zoe.hale8",
       "lid": "",
       "oc": "",
       "q": 0,
