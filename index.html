@@ -38,6 +38,9 @@
   }
 
   * { box-sizing: border-box; }
+  /* 内嵌模式(?embed=1)：隐藏页面自身标题，适配 OK Leads iframe 内嵌 */
+  body.embed .titleblock h1, body.embed .titleblock > p, body.embed .theme-toggle { display: none; }
+  body.embed .wrap { padding-top: 12px; }
   html, body { margin: 0; padding: 0; }
   body {
     font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", system-ui, sans-serif;
@@ -780,6 +783,8 @@ function renderSrc(){
 /* 启动：http(s) 环境下用 no-store 拉最新 data.json（绕过浏览器对 data.js 的缓存，
    保证每天 8 点更新后打开页面即最新）；file:// 本地双击打开则直接用 data.js。 */
 async function boot(){
+  // 内嵌模式：OK Leads iframe 用 ?embed=1 打开，隐藏页面自身标题
+  if (new URLSearchParams(location.search).get('embed') === '1') document.body.classList.add('embed');
   if (location.protocol === 'http:' || location.protocol === 'https:'){
     try {
       const r = await fetch('data.json', {cache: 'no-store'});
