@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17 14:34",
+  "generated_at": "2026-07-17 15:33",
   "window": {
     "start": "2026-06-18",
     "end": "2026-07-17",
@@ -41,7 +41,7 @@
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
-      "newLeads": 27,
+      "newLeads": 29,
       "qualified": 2,
       "meetings": 2
     },
@@ -632,7 +632,7 @@
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
-      "newLeads": 0,
+      "newLeads": 1,
       "qualified": 0,
       "meetings": 0
     },
@@ -898,7 +898,7 @@
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
-      "newLeads": 0,
+      "newLeads": 1,
       "qualified": 0,
       "meetings": 0
     },
@@ -4514,6 +4514,14 @@
     },
     {
       "d": "2026-06-24",
+      "h": "",
+      "lid": "DXB-DA602E",
+      "oc": "",
+      "q": 0,
+      "m": 0
+    },
+    {
+      "d": "2026-06-24",
       "h": "lilyokproperty",
       "lid": "",
       "oc": "",
@@ -5035,7 +5043,7 @@
     {
       "d": "2026-07-08",
       "h": "zoe.hale8",
-      "lid": "",
+      "lid": "DXB-E11AA7",
       "oc": "",
       "q": 0,
       "m": 0
@@ -5319,6 +5327,22 @@
       "oc": "",
       "q": 0,
       "m": 0
+    },
+    {
+      "d": "2026-07-17",
+      "h": "rofik.hossen04",
+      "lid": "",
+      "oc": "",
+      "q": 0,
+      "m": 0
+    },
+    {
+      "d": "2026-07-17",
+      "h": "rofik.hossen04",
+      "lid": "",
+      "oc": "",
+      "q": 0,
+      "m": 0
     }
   ],
   "listing_meta": {
@@ -5333,6 +5357,10 @@
     "DXB-77B0CB": {
       "lc": "Elite tower residence",
       "lx": "2室3卫"
+    },
+    "DXB-DA602E": {
+      "lc": "SOBHA Hartland",
+      "lx": "3室1卫"
     },
     "DXB-1BA70D": {
       "lc": "SOBHA Hartland",
@@ -5361,6 +5389,10 @@
     "DXB-7C1151": {
       "lc": "Jumeirah Village Circle",
       "lx": "2室0卫"
+    },
+    "DXB-E11AA7": {
+      "lc": "Jumeirah Village Circle",
+      "lx": "1室2卫"
     },
     "AS-175725": {
       "lc": "Binghatti Venus",
