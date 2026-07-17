@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17 15:33",
+  "generated_at": "2026-07-17 15:41",
   "window": {
     "start": "2026-06-18",
     "end": "2026-07-17",
@@ -518,7 +518,7 @@
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
-      "newLeads": 0,
+      "newLeads": 1,
       "qualified": 0,
       "meetings": 0
     },
@@ -765,7 +765,7 @@
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
-      "newLeads": 0,
+      "newLeads": 1,
       "qualified": 0,
       "meetings": 0
     },
@@ -4522,6 +4522,14 @@
     },
     {
       "d": "2026-06-24",
+      "h": "",
+      "lid": "DXB-38F9AD",
+      "oc": "",
+      "q": 0,
+      "m": 0
+    },
+    {
+      "d": "2026-06-24",
       "h": "lilyokproperty",
       "lid": "",
       "oc": "",
@@ -5050,6 +5058,14 @@
     },
     {
       "d": "2026-07-08",
+      "h": "",
+      "lid": "DXB-A5CF49",
+      "oc": "",
+      "q": 0,
+      "m": 0
+    },
+    {
+      "d": "2026-07-08",
       "h": "zoe.hale8",
       "lid": "",
       "oc": "",
@@ -5362,6 +5378,10 @@
       "lc": "SOBHA Hartland",
       "lx": "3室1卫"
     },
+    "DXB-38F9AD": {
+      "lc": "SOBHA Hartland",
+      "lx": "4室1卫"
+    },
     "DXB-1BA70D": {
       "lc": "SOBHA Hartland",
       "lx": "2室1卫"
@@ -5393,6 +5413,10 @@
     "DXB-E11AA7": {
       "lc": "Jumeirah Village Circle",
       "lx": "1室2卫"
+    },
+    "DXB-A5CF49": {
+      "lc": "Jumeirah Village Circle",
+      "lx": "1室0卫"
     },
     "AS-175725": {
       "lc": "Binghatti Venus",
