@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17 10:59",
+  "generated_at": "2026-07-17 14:34",
   "window": {
     "start": "2026-06-18",
     "end": "2026-07-17",
@@ -41,7 +41,7 @@
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
-      "newLeads": 24,
+      "newLeads": 27,
       "qualified": 2,
       "meetings": 2
     },
@@ -98,7 +98,7 @@
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
-      "newLeads": 31,
+      "newLeads": 32,
       "qualified": 2,
       "meetings": 0
     },
@@ -174,7 +174,7 @@
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
-      "newLeads": 13,
+      "newLeads": 14,
       "qualified": 4,
       "meetings": 3
     },
@@ -5275,6 +5275,46 @@
     {
       "d": "2026-07-16",
       "h": "zoe.hale8",
+      "lid": "",
+      "oc": "",
+      "q": 0,
+      "m": 0
+    },
+    {
+      "d": "2026-07-17",
+      "h": "rofik.hossen04",
+      "lid": "",
+      "oc": "",
+      "q": 0,
+      "m": 0
+    },
+    {
+      "d": "2026-07-17",
+      "h": "rofik.hossen04",
+      "lid": "",
+      "oc": "",
+      "q": 0,
+      "m": 0
+    },
+    {
+      "d": "2026-07-17",
+      "h": "rofik.hossen04",
+      "lid": "",
+      "oc": "",
+      "q": 0,
+      "m": 0
+    },
+    {
+      "d": "2026-07-17",
+      "h": "lilyokproperty",
+      "lid": "",
+      "oc": "",
+      "q": 0,
+      "m": 0
+    },
+    {
+      "d": "2026-07-17",
+      "h": "lylaluxuryhome2",
       "lid": "",
       "oc": "",
       "q": 0,
