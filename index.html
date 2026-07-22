@@ -796,7 +796,9 @@ async function boot(){
   }
   refreshSources();
   renderSrc();
-  switchView('account');
+  // 深链: ?view=listing 直接打开房源维度
+  const v0 = new URLSearchParams(location.search).get('view');
+  switchView(v0 === 'listing' ? 'listing' : 'account');
 }
 boot();
 </script>
