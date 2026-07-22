@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-21 08:01",
+  "generated_at": "2026-07-22 08:01",
   "window": {
-    "start": "2026-06-22",
-    "end": "2026-07-21",
+    "start": "2026-06-23",
+    "end": "2026-07-22",
     "days": 30,
-    "snapshot": "2026-07-21"
+    "snapshot": "2026-07-22"
   },
   "accounts": [
     {
@@ -14,34 +14,15 @@
       "group": "董心怡",
       "category": "迪拜房产",
       "videos": 38,
-      "totalVV": 22192,
-      "maxVV": 4305,
+      "totalVV": 21740,
+      "maxVV": 4361,
       "likes": 339,
       "comments": 97,
       "shares": 44,
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
-      "newLeads": 23,
-      "qualified": 3,
-      "meetings": 0
-    },
-    {
-      "id": "lilyokproperty",
-      "account": "lilyokproperty",
-      "owner": "李旭婷",
-      "group": "内容创意二部",
-      "category": "迪拜别墅新房",
-      "videos": 23,
-      "totalVV": 11853,
-      "maxVV": 2016,
-      "likes": 292,
-      "comments": 69,
-      "shares": 17,
-      "dms": 0,
-      "replies": 0,
-      "whatsapp": 0,
-      "newLeads": 34,
+      "newLeads": 26,
       "qualified": 3,
       "meetings": 0
     },
@@ -52,15 +33,15 @@
       "group": "董心怡",
       "category": "迪拜房产",
       "videos": 37,
-      "totalVV": 11664,
+      "totalVV": 11406,
       "maxVV": 800,
-      "likes": 271,
-      "comments": 30,
+      "likes": 267,
+      "comments": 31,
       "shares": 9,
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
-      "newLeads": 29,
+      "newLeads": 30,
       "qualified": 3,
       "meetings": 2
     },
@@ -71,10 +52,10 @@
       "group": "心怡组",
       "category": "迪拜房产",
       "videos": 34,
-      "totalVV": 10339,
-      "maxVV": 750,
-      "likes": 185,
-      "comments": 39,
+      "totalVV": 10394,
+      "maxVV": 751,
+      "likes": 188,
+      "comments": 41,
       "shares": 11,
       "dms": 0,
       "replies": 0,
@@ -84,15 +65,34 @@
       "meetings": 0
     },
     {
+      "id": "lilyokproperty",
+      "account": "lilyokproperty",
+      "owner": "李旭婷",
+      "group": "内容创意二部",
+      "category": "迪拜别墅新房",
+      "videos": 23,
+      "totalVV": 10153,
+      "maxVV": 784,
+      "likes": 282,
+      "comments": 52,
+      "shares": 12,
+      "dms": 0,
+      "replies": 0,
+      "whatsapp": 0,
+      "newLeads": 32,
+      "qualified": 2,
+      "meetings": 0
+    },
+    {
       "id": "dubailuxuryvillas",
       "account": "The Property Sibling",
       "owner": "心怡",
       "group": "心怡组",
       "category": "迪拜房产",
       "videos": 28,
-      "totalVV": 9631,
-      "maxVV": 580,
-      "likes": 118,
+      "totalVV": 9713,
+      "maxVV": 582,
+      "likes": 113,
       "comments": 28,
       "shares": 5,
       "dms": 0,
@@ -109,10 +109,10 @@
       "group": "心怡组",
       "category": "迪拜房产",
       "videos": 35,
-      "totalVV": 9276,
+      "totalVV": 9124,
       "maxVV": 853,
-      "likes": 206,
-      "comments": 40,
+      "likes": 211,
+      "comments": 39,
       "shares": 8,
       "dms": 0,
       "replies": 0,
@@ -127,10 +127,10 @@
       "owner": "张佳铭",
       "group": "董心怡",
       "category": "迪拜房产",
-      "videos": 38,
-      "totalVV": 9008,
+      "videos": 37,
+      "totalVV": 8632,
       "maxVV": 741,
-      "likes": 272,
+      "likes": 264,
       "comments": 36,
       "shares": 15,
       "dms": 0,
@@ -147,7 +147,7 @@
       "group": "内容创意二部",
       "category": "迪拜别墅新房",
       "videos": 16,
-      "totalVV": 8248,
+      "totalVV": 8284,
       "maxVV": 1506,
       "likes": 216,
       "comments": 32,
@@ -155,9 +155,9 @@
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
-      "newLeads": 15,
-      "qualified": 4,
-      "meetings": 3
+      "newLeads": 14,
+      "qualified": 3,
+      "meetings": 2
     },
     {
       "id": "lilit.hublot",
@@ -166,11 +166,11 @@
       "group": "心怡组",
       "category": "迪拜房产",
       "videos": 36,
-      "totalVV": 7946,
-      "maxVV": 701,
-      "likes": 194,
-      "comments": 35,
-      "shares": 18,
+      "totalVV": 8037,
+      "maxVV": 722,
+      "likes": 190,
+      "comments": 37,
+      "shares": 20,
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
@@ -193,7 +193,7 @@
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
-      "newLeads": 8,
+      "newLeads": 7,
       "qualified": 0,
       "meetings": 0
     },
@@ -282,7 +282,7 @@
       "community": "Burj Khalifa",
       "huxing": "2室",
       "videos": 9,
-      "totalVV": 4750,
+      "totalVV": 4759,
       "maxVV": 1074,
       "likes": 95,
       "comments": 20,
@@ -320,7 +320,7 @@
       "community": "Burj Khalifa",
       "huxing": "2室",
       "videos": 8,
-      "totalVV": 3488,
+      "totalVV": 3492,
       "maxVV": 793,
       "likes": 64,
       "comments": 9,
@@ -333,35 +333,16 @@
       "meetings": 0
     },
     {
-      "id": "DXB-82E729",
-      "type": "现房",
-      "name": "DXB-82E729",
-      "community": "Mulberry",
-      "huxing": "3室5卫",
-      "videos": 4,
-      "totalVV": 3114,
-      "maxVV": 2016,
-      "likes": 37,
-      "comments": 21,
-      "shares": 6,
-      "dms": 0,
-      "replies": 0,
-      "whatsapp": 0,
-      "newLeads": 1,
-      "qualified": 0,
-      "meetings": 0
-    },
-    {
       "id": "DXB-DF0F95",
       "type": "现房",
       "name": "DXB-DF0F95",
       "community": "Park Horizon",
       "huxing": "2室",
-      "videos": 13,
-      "totalVV": 2914,
+      "videos": 14,
+      "totalVV": 3186,
       "maxVV": 572,
-      "likes": 58,
-      "comments": 13,
+      "likes": 63,
+      "comments": 14,
       "shares": 4,
       "dms": 0,
       "replies": 0,
@@ -376,11 +357,11 @@
       "name": "DXB-B3D9D8",
       "community": "Burj Khalifa",
       "huxing": "3室2卫",
-      "videos": 7,
-      "totalVV": 2803,
-      "maxVV": 701,
-      "likes": 58,
-      "comments": 14,
+      "videos": 8,
+      "totalVV": 2937,
+      "maxVV": 722,
+      "likes": 61,
+      "comments": 16,
       "shares": 2,
       "dms": 0,
       "replies": 0,
@@ -396,10 +377,10 @@
       "community": "Le Reve",
       "huxing": "Vacant | Half Floor",
       "videos": 8,
-      "totalVV": 2706,
-      "maxVV": 648,
-      "likes": 51,
-      "comments": 5,
+      "totalVV": 2832,
+      "maxVV": 667,
+      "likes": 56,
+      "comments": 7,
       "shares": 1,
       "dms": 0,
       "replies": 0,
@@ -415,7 +396,7 @@
       "community": "Grande",
       "huxing": "Studio",
       "videos": 9,
-      "totalVV": 2694,
+      "totalVV": 2702,
       "maxVV": 800,
       "likes": 63,
       "comments": 4,
@@ -434,8 +415,8 @@
       "community": "Burj Khalifa",
       "huxing": "3室3卫",
       "videos": 8,
-      "totalVV": 2693,
-      "maxVV": 783,
+      "totalVV": 2702,
+      "maxVV": 784,
       "likes": 65,
       "comments": 16,
       "shares": 4,
@@ -453,15 +434,15 @@
       "community": "Jumeirah Village Circle",
       "huxing": "2室0卫",
       "videos": 13,
-      "totalVV": 2673,
-      "maxVV": 789,
-      "likes": 72,
+      "totalVV": 2694,
+      "maxVV": 794,
+      "likes": 73,
       "comments": 20,
       "shares": 13,
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
-      "newLeads": 2,
+      "newLeads": 3,
       "qualified": 0,
       "meetings": 0
     },
@@ -472,7 +453,7 @@
       "community": "Dubai Jewel Tower",
       "huxing": "2室",
       "videos": 6,
-      "totalVV": 2640,
+      "totalVV": 2651,
       "maxVV": 974,
       "likes": 47,
       "comments": 10,
@@ -491,11 +472,30 @@
       "community": "Jumeirah Village Circle",
       "huxing": "1室0卫",
       "videos": 7,
-      "totalVV": 2519,
+      "totalVV": 2522,
       "maxVV": 525,
       "likes": 55,
       "comments": 4,
       "shares": 0,
+      "dms": 0,
+      "replies": 0,
+      "whatsapp": 0,
+      "newLeads": 1,
+      "qualified": 0,
+      "meetings": 0
+    },
+    {
+      "id": "DXB-E11AA7",
+      "type": "现房",
+      "name": "DXB-E11AA7",
+      "community": "Jumeirah Village Circle",
+      "huxing": "1室2卫",
+      "videos": 6,
+      "totalVV": 2317,
+      "maxVV": 769,
+      "likes": 36,
+      "comments": 10,
+      "shares": 3,
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
@@ -510,8 +510,8 @@
       "community": "THE ROYAL OCEANIC",
       "huxing": "2室2卫",
       "videos": 5,
-      "totalVV": 2152,
-      "maxVV": 490,
+      "totalVV": 2154,
+      "maxVV": 492,
       "likes": 31,
       "comments": 1,
       "shares": 2,
@@ -523,32 +523,13 @@
       "meetings": 0
     },
     {
-      "id": "DXB-E11AA7",
-      "type": "现房",
-      "name": "DXB-E11AA7",
-      "community": "Jumeirah Village Circle",
-      "huxing": "1室2卫",
-      "videos": 5,
-      "totalVV": 2145,
-      "maxVV": 759,
-      "likes": 36,
-      "comments": 10,
-      "shares": 3,
-      "dms": 0,
-      "replies": 0,
-      "whatsapp": 0,
-      "newLeads": 1,
-      "qualified": 0,
-      "meetings": 0
-    },
-    {
       "id": "DXB-A974A4",
       "type": "现房",
       "name": "DXB-A974A4",
       "community": "Villa Bianca",
       "huxing": "villa",
       "videos": 8,
-      "totalVV": 1801,
+      "totalVV": 1804,
       "maxVV": 626,
       "likes": 54,
       "comments": 3,
@@ -567,8 +548,8 @@
       "community": "Dubai Jewel Tower",
       "huxing": "2室",
       "videos": 3,
-      "totalVV": 1543,
-      "maxVV": 750,
+      "totalVV": 1544,
+      "maxVV": 751,
       "likes": 26,
       "comments": 4,
       "shares": 3,
@@ -586,8 +567,8 @@
       "community": "Burj Khalifa",
       "huxing": "1室0卫",
       "videos": 2,
-      "totalVV": 1514,
-      "maxVV": 1028,
+      "totalVV": 1542,
+      "maxVV": 1056,
       "likes": 40,
       "comments": 9,
       "shares": 2,
@@ -605,7 +586,7 @@
       "community": "Jumeirah Village Circle",
       "huxing": "1室",
       "videos": 6,
-      "totalVV": 1393,
+      "totalVV": 1397,
       "maxVV": 533,
       "likes": 31,
       "comments": 9,
@@ -624,11 +605,30 @@
       "community": "Marina Crown",
       "huxing": "3室",
       "videos": 3,
-      "totalVV": 1202,
+      "totalVV": 1205,
       "maxVV": 526,
       "likes": 13,
       "comments": 4,
       "shares": 3,
+      "dms": 0,
+      "replies": 0,
+      "whatsapp": 0,
+      "newLeads": 0,
+      "qualified": 0,
+      "meetings": 0
+    },
+    {
+      "id": "DXB-82E729",
+      "type": "现房",
+      "name": "DXB-82E729",
+      "community": "Mulberry",
+      "huxing": "3室5卫",
+      "videos": 3,
+      "totalVV": 1143,
+      "maxVV": 497,
+      "likes": 18,
+      "comments": 3,
+      "shares": 1,
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
@@ -643,8 +643,8 @@
       "community": "HACIENDA",
       "huxing": "6室7卫",
       "videos": 2,
-      "totalVV": 1112,
-      "maxVV": 628,
+      "totalVV": 1114,
+      "maxVV": 629,
       "likes": 20,
       "comments": 1,
       "shares": 1,
@@ -662,11 +662,30 @@
       "community": "Dubai Jewel Tower",
       "huxing": "1室",
       "videos": 4,
-      "totalVV": 1053,
+      "totalVV": 1054,
       "maxVV": 472,
       "likes": 25,
       "comments": 2,
       "shares": 0,
+      "dms": 0,
+      "replies": 0,
+      "whatsapp": 0,
+      "newLeads": 0,
+      "qualified": 0,
+      "meetings": 0
+    },
+    {
+      "id": "DXB-7E4861",
+      "type": "现房",
+      "name": "DXB-7E4861",
+      "community": "SOBHA Hartland",
+      "huxing": "3室1卫",
+      "videos": 3,
+      "totalVV": 1026,
+      "maxVV": 593,
+      "likes": 25,
+      "comments": 4,
+      "shares": 4,
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
@@ -681,7 +700,7 @@
       "community": "Dubai Jewel Tower",
       "huxing": "4室",
       "videos": 4,
-      "totalVV": 1005,
+      "totalVV": 1006,
       "maxVV": 505,
       "likes": 13,
       "comments": 5,
@@ -700,28 +719,9 @@
       "community": "Jumeirah Village Circle",
       "huxing": "1室0卫",
       "videos": 2,
-      "totalVV": 973,
-      "maxVV": 492,
+      "totalVV": 981,
+      "maxVV": 498,
       "likes": 26,
-      "comments": 0,
-      "shares": 0,
-      "dms": 0,
-      "replies": 0,
-      "whatsapp": 0,
-      "newLeads": 0,
-      "qualified": 0,
-      "meetings": 0
-    },
-    {
-      "id": "DXB-7DFE58",
-      "type": "现房",
-      "name": "DXB-7DFE58",
-      "community": "Ayala On The Park",
-      "huxing": "1室0卫",
-      "videos": 3,
-      "totalVV": 965,
-      "maxVV": 494,
-      "likes": 10,
       "comments": 0,
       "shares": 0,
       "dms": 0,
@@ -738,7 +738,7 @@
       "community": "Jumeirah Village Circle",
       "huxing": "Studio",
       "videos": 6,
-      "totalVV": 939,
+      "totalVV": 952,
       "maxVV": 237,
       "likes": 32,
       "comments": 3,
@@ -751,16 +751,35 @@
       "meetings": 0
     },
     {
+      "id": "DXB-AC03BB",
+      "type": "现房",
+      "name": "DXB-AC03BB",
+      "community": "(未知小区)",
+      "huxing": "1室2卫",
+      "videos": 7,
+      "totalVV": 937,
+      "maxVV": 155,
+      "likes": 37,
+      "comments": 6,
+      "shares": 2,
+      "dms": 0,
+      "replies": 0,
+      "whatsapp": 0,
+      "newLeads": 2,
+      "qualified": 0,
+      "meetings": 0
+    },
+    {
       "id": "DXB-62A70E",
       "type": "现房",
       "name": "DXB-62A70E",
       "community": "Elite Residence",
       "huxing": "4BED  penthouse",
       "videos": 5,
-      "totalVV": 874,
-      "maxVV": 237,
-      "likes": 28,
-      "comments": 3,
+      "totalVV": 895,
+      "maxVV": 245,
+      "likes": 29,
+      "comments": 4,
       "shares": 4,
       "dms": 0,
       "replies": 0,
@@ -776,30 +795,11 @@
       "community": "Elite Residence",
       "huxing": "4室",
       "videos": 3,
-      "totalVV": 829,
-      "maxVV": 322,
-      "likes": 34,
+      "totalVV": 843,
+      "maxVV": 323,
+      "likes": 35,
       "comments": 4,
       "shares": 1,
-      "dms": 0,
-      "replies": 0,
-      "whatsapp": 0,
-      "newLeads": 0,
-      "qualified": 0,
-      "meetings": 0
-    },
-    {
-      "id": "DXB-7E4861",
-      "type": "现房",
-      "name": "DXB-7E4861",
-      "community": "SOBHA Hartland",
-      "huxing": "3室1卫",
-      "videos": 2,
-      "totalVV": 829,
-      "maxVV": 590,
-      "likes": 24,
-      "comments": 3,
-      "shares": 4,
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
@@ -814,8 +814,8 @@
       "community": "Weybridge Gardens 2",
       "huxing": "2室",
       "videos": 5,
-      "totalVV": 789,
-      "maxVV": 259,
+      "totalVV": 794,
+      "maxVV": 260,
       "likes": 33,
       "comments": 1,
       "shares": 1,
@@ -833,11 +833,49 @@
       "community": "Dubai Jewel Tower",
       "huxing": "3室0卫",
       "videos": 4,
-      "totalVV": 769,
-      "maxVV": 267,
+      "totalVV": 777,
+      "maxVV": 273,
       "likes": 32,
       "comments": 3,
       "shares": 1,
+      "dms": 0,
+      "replies": 0,
+      "whatsapp": 0,
+      "newLeads": 0,
+      "qualified": 0,
+      "meetings": 0
+    },
+    {
+      "id": "DXB-5888FC",
+      "type": "现房",
+      "name": "DXB-5888FC",
+      "community": "Dubai Jewel Tower",
+      "huxing": "3室",
+      "videos": 4,
+      "totalVV": 744,
+      "maxVV": 257,
+      "likes": 26,
+      "comments": 4,
+      "shares": 3,
+      "dms": 0,
+      "replies": 0,
+      "whatsapp": 0,
+      "newLeads": 0,
+      "qualified": 0,
+      "meetings": 0
+    },
+    {
+      "id": "DXB-286B8C",
+      "type": "现房",
+      "name": "DXB-286B8C",
+      "community": "Sobha Creek Vista Tower A",
+      "huxing": "一居室",
+      "videos": 2,
+      "totalVV": 713,
+      "maxVV": 499,
+      "likes": 6,
+      "comments": 3,
+      "shares": 0,
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
@@ -852,8 +890,8 @@
       "community": "Dubai Jewel Tower",
       "huxing": "3室",
       "videos": 3,
-      "totalVV": 697,
-      "maxVV": 475,
+      "totalVV": 709,
+      "maxVV": 476,
       "likes": 13,
       "comments": 3,
       "shares": 0,
@@ -865,17 +903,17 @@
       "meetings": 0
     },
     {
-      "id": "DXB-5888FC",
+      "id": "DXB-7DFE58",
       "type": "现房",
-      "name": "DXB-5888FC",
-      "community": "Dubai Jewel Tower",
-      "huxing": "3室",
-      "videos": 4,
-      "totalVV": 643,
-      "maxVV": 198,
-      "likes": 26,
-      "comments": 3,
-      "shares": 1,
+      "name": "DXB-7DFE58",
+      "community": "Ayala On The Park",
+      "huxing": "1室0卫",
+      "videos": 2,
+      "totalVV": 602,
+      "maxVV": 495,
+      "likes": 7,
+      "comments": 0,
+      "shares": 0,
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
@@ -903,33 +941,14 @@
       "meetings": 0
     },
     {
-      "id": "DXB-286B8C",
-      "type": "现房",
-      "name": "DXB-286B8C",
-      "community": "Sobha Creek Vista Tower A",
-      "huxing": "一居室",
-      "videos": 1,
-      "totalVV": 499,
-      "maxVV": 499,
-      "likes": 2,
-      "comments": 1,
-      "shares": 0,
-      "dms": 0,
-      "replies": 0,
-      "whatsapp": 0,
-      "newLeads": 0,
-      "qualified": 0,
-      "meetings": 0
-    },
-    {
       "id": "DXB-77B0CB",
       "type": "现房",
       "name": "DXB-77B0CB",
       "community": "Elite tower residence",
       "huxing": "2室3卫",
       "videos": 3,
-      "totalVV": 486,
-      "maxVV": 205,
+      "totalVV": 490,
+      "maxVV": 206,
       "likes": 9,
       "comments": 2,
       "shares": 0,
@@ -941,17 +960,17 @@
       "meetings": 0
     },
     {
-      "id": "Venera at The Valley",
+      "id": "South Living",
       "type": "期房",
-      "name": "Venera at The Valley",
-      "community": "Venera at The Valley",
-      "huxing": "4室",
-      "videos": 3,
-      "totalVV": 440,
-      "maxVV": 211,
-      "likes": 15,
-      "comments": 2,
-      "shares": 1,
+      "name": "South Living",
+      "community": "South Living",
+      "huxing": "3室",
+      "videos": 2,
+      "totalVV": 460,
+      "maxVV": 244,
+      "likes": 2,
+      "comments": 0,
+      "shares": 0,
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
@@ -960,17 +979,17 @@
       "meetings": 0
     },
     {
-      "id": "South Living",
+      "id": "Venera at The Valley",
       "type": "期房",
-      "name": "South Living",
-      "community": "South Living",
-      "huxing": "3室",
-      "videos": 2,
-      "totalVV": 399,
-      "maxVV": 211,
-      "likes": 2,
-      "comments": 0,
-      "shares": 0,
+      "name": "Venera at The Valley",
+      "community": "Venera at The Valley",
+      "huxing": "4室",
+      "videos": 3,
+      "totalVV": 450,
+      "maxVV": 217,
+      "likes": 16,
+      "comments": 2,
+      "shares": 1,
       "dms": 0,
       "replies": 0,
       "whatsapp": 0,
@@ -985,9 +1004,9 @@
       "community": "Wadi 645",
       "huxing": "2室",
       "videos": 2,
-      "totalVV": 283,
-      "maxVV": 205,
-      "likes": 2,
+      "totalVV": 288,
+      "maxVV": 206,
+      "likes": 3,
       "comments": 0,
       "shares": 0,
       "dms": 0,
@@ -1004,8 +1023,8 @@
       "community": "SOBHA Hartland",
       "huxing": "2室1卫",
       "videos": 2,
-      "totalVV": 260,
-      "maxVV": 143,
+      "totalVV": 262,
+      "maxVV": 145,
       "likes": 14,
       "comments": 1,
       "shares": 0,
@@ -1023,8 +1042,8 @@
       "community": "SOBHA Hartland",
       "huxing": "3室1卫",
       "videos": 1,
-      "totalVV": 166,
-      "maxVV": 166,
+      "totalVV": 167,
+      "maxVV": 167,
       "likes": 3,
       "comments": 0,
       "shares": 0,
@@ -1042,8 +1061,8 @@
       "community": "Manchester tower",
       "huxing": "1室0卫",
       "videos": 1,
-      "totalVV": 135,
-      "maxVV": 135,
+      "totalVV": 136,
+      "maxVV": 136,
       "likes": 1,
       "comments": 0,
       "shares": 0,
@@ -1080,8 +1099,8 @@
       "community": "DAMAC Lagoons Costa Brava 2",
       "huxing": "3室",
       "videos": 1,
-      "totalVV": 100,
-      "maxVV": 100,
+      "totalVV": 102,
+      "maxVV": 102,
       "likes": 1,
       "comments": 1,
       "shares": 0,
@@ -1150,6 +1169,25 @@
       "meetings": 0
     },
     {
+      "id": "DXB-2A0938",
+      "type": "现房",
+      "name": "DXB-2A0938",
+      "community": "Tilal Al Ghaf PARK VIEW",
+      "huxing": "5室",
+      "videos": 0,
+      "totalVV": 0,
+      "maxVV": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "dms": 0,
+      "replies": 0,
+      "whatsapp": 0,
+      "newLeads": 1,
+      "qualified": 0,
+      "meetings": 0
+    },
+    {
       "id": "DAMAC Lagoons Nice 1",
       "type": "期房",
       "name": "DAMAC Lagoons Nice 1",
@@ -1170,14 +1208,6 @@
     }
   ],
   "videos": [
-    {
-      "d": "2026-06-22",
-      "h": "lilit.hublot",
-      "vv": 299,
-      "lk": 8,
-      "cm": 1,
-      "sh": 0
-    },
     {
       "d": "2026-06-23",
       "h": "lilit.hublot",
@@ -1409,7 +1439,7 @@
     {
       "d": "2026-07-08",
       "h": "lilit.hublot",
-      "vv": 701,
+      "vv": 722,
       "lk": 9,
       "cm": 4,
       "sh": 2,
@@ -1445,7 +1475,7 @@
     {
       "d": "2026-07-11",
       "h": "lilit.hublot",
-      "vv": 320,
+      "vv": 321,
       "lk": 7,
       "cm": 0,
       "sh": 0,
@@ -1469,7 +1499,7 @@
     {
       "d": "2026-07-12",
       "h": "lilit.hublot",
-      "vv": 354,
+      "vv": 363,
       "lk": 8,
       "cm": 0,
       "sh": 2,
@@ -1481,7 +1511,7 @@
     {
       "d": "2026-07-13",
       "h": "lilit.hublot",
-      "vv": 211,
+      "vv": 217,
       "lk": 6,
       "cm": 0,
       "sh": 1,
@@ -1505,7 +1535,7 @@
     {
       "d": "2026-07-15",
       "h": "lilit.hublot",
-      "vv": 475,
+      "vv": 480,
       "lk": 13,
       "cm": 1,
       "sh": 0,
@@ -1517,7 +1547,7 @@
     {
       "d": "2026-07-16",
       "h": "lilit.hublot",
-      "vv": 140,
+      "vv": 141,
       "lk": 2,
       "cm": 1,
       "sh": 0,
@@ -1529,7 +1559,7 @@
     {
       "d": "2026-07-17",
       "h": "lilit.hublot",
-      "vv": 280,
+      "vv": 291,
       "lk": 5,
       "cm": 1,
       "sh": 0,
@@ -1553,7 +1583,7 @@
     {
       "d": "2026-07-19",
       "h": "lilit.hublot",
-      "vv": 112,
+      "vv": 117,
       "lk": 4,
       "cm": 1,
       "sh": 0,
@@ -1565,7 +1595,7 @@
     {
       "d": "2026-07-19",
       "h": "lilit.hublot",
-      "vv": 97,
+      "vv": 113,
       "lk": 2,
       "cm": 1,
       "sh": 0,
@@ -1577,22 +1607,26 @@
     {
       "d": "2026-07-20",
       "h": "lilit.hublot",
-      "vv": 156,
+      "vv": 257,
       "lk": 4,
-      "cm": 0,
-      "sh": 0,
+      "cm": 1,
+      "sh": 2,
       "lt": "现房",
       "ln": "DXB-5888FC",
       "lc": "Dubai Jewel Tower",
       "lx": "3室"
     },
     {
-      "d": "2026-06-22",
-      "h": "dubailuxuryvillas",
-      "vv": 378,
-      "lk": 7,
-      "cm": 0,
-      "sh": 0
+      "d": "2026-07-21",
+      "h": "lilit.hublot",
+      "vv": 214,
+      "lk": 4,
+      "cm": 2,
+      "sh": 0,
+      "lt": "现房",
+      "ln": "DXB-286B8C",
+      "lc": "Sobha Creek Vista Tower A",
+      "lx": "一居室"
     },
     {
       "d": "2026-06-24",
@@ -1621,7 +1655,7 @@
     {
       "d": "2026-06-28",
       "h": "dubailuxuryvillas",
-      "vv": 580,
+      "vv": 582,
       "lk": 11,
       "cm": 3,
       "sh": 1
@@ -1637,7 +1671,7 @@
     {
       "d": "2026-06-30",
       "h": "dubailuxuryvillas",
-      "vv": 435,
+      "vv": 437,
       "lk": 5,
       "cm": 2,
       "sh": 0
@@ -1653,7 +1687,7 @@
     {
       "d": "2026-07-02",
       "h": "dubailuxuryvillas",
-      "vv": 274,
+      "vv": 275,
       "lk": 4,
       "cm": 0,
       "sh": 0
@@ -1669,7 +1703,7 @@
     {
       "d": "2026-07-03",
       "h": "dubailuxuryvillas",
-      "vv": 208,
+      "vv": 209,
       "lk": 1,
       "cm": 0,
       "sh": 0
@@ -1701,7 +1735,7 @@
     {
       "d": "2026-07-06",
       "h": "dubailuxuryvillas",
-      "vv": 441,
+      "vv": 443,
       "lk": 2,
       "cm": 3,
       "sh": 0
@@ -1709,7 +1743,7 @@
     {
       "d": "2026-07-07",
       "h": "dubailuxuryvillas",
-      "vv": 241,
+      "vv": 242,
       "lk": 1,
       "cm": 1,
       "sh": 0
@@ -1717,7 +1751,7 @@
     {
       "d": "2026-07-08",
       "h": "dubailuxuryvillas",
-      "vv": 220,
+      "vv": 221,
       "lk": 4,
       "cm": 0,
       "sh": 0
@@ -1725,7 +1759,7 @@
     {
       "d": "2026-07-09",
       "h": "dubailuxuryvillas",
-      "vv": 494,
+      "vv": 502,
       "lk": 6,
       "cm": 3,
       "sh": 0
@@ -1733,7 +1767,7 @@
     {
       "d": "2026-07-10",
       "h": "dubailuxuryvillas",
-      "vv": 248,
+      "vv": 250,
       "lk": 5,
       "cm": 0,
       "sh": 0
@@ -1741,7 +1775,7 @@
     {
       "d": "2026-07-11",
       "h": "dubailuxuryvillas",
-      "vv": 250,
+      "vv": 251,
       "lk": 2,
       "cm": 0,
       "sh": 0
@@ -1749,7 +1783,7 @@
     {
       "d": "2026-07-12",
       "h": "dubailuxuryvillas",
-      "vv": 389,
+      "vv": 392,
       "lk": 4,
       "cm": 1,
       "sh": 0
@@ -1757,7 +1791,7 @@
     {
       "d": "2026-07-13",
       "h": "dubailuxuryvillas",
-      "vv": 399,
+      "vv": 402,
       "lk": 5,
       "cm": 1,
       "sh": 0
@@ -1765,7 +1799,7 @@
     {
       "d": "2026-07-14",
       "h": "dubailuxuryvillas",
-      "vv": 100,
+      "vv": 102,
       "lk": 1,
       "cm": 1,
       "sh": 0,
@@ -1785,7 +1819,7 @@
     {
       "d": "2026-07-16",
       "h": "dubailuxuryvillas",
-      "vv": 173,
+      "vv": 177,
       "lk": 8,
       "cm": 1,
       "sh": 1,
@@ -1797,7 +1831,7 @@
     {
       "d": "2026-07-18",
       "h": "dubailuxuryvillas",
-      "vv": 278,
+      "vv": 285,
       "lk": 6,
       "cm": 1,
       "sh": 0
@@ -1805,7 +1839,7 @@
     {
       "d": "2026-07-19",
       "h": "dubailuxuryvillas",
-      "vv": 211,
+      "vv": 216,
       "lk": 1,
       "cm": 0,
       "sh": 0,
@@ -1817,7 +1851,7 @@
     {
       "d": "2026-07-20",
       "h": "dubailuxuryvillas",
-      "vv": 188,
+      "vv": 244,
       "lk": 1,
       "cm": 0,
       "sh": 0,
@@ -1827,11 +1861,11 @@
       "lx": "3室"
     },
     {
-      "d": "2026-06-22",
-      "h": "zoe.hale8",
-      "vv": 685,
-      "lk": 5,
-      "cm": 2,
+      "d": "2026-07-21",
+      "h": "dubailuxuryvillas",
+      "vv": 359,
+      "lk": 2,
+      "cm": 0,
       "sh": 0
     },
     {
@@ -1989,7 +2023,7 @@
     {
       "d": "2026-07-03",
       "h": "zoe.hale8",
-      "vv": 712,
+      "vv": 714,
       "lk": 11,
       "cm": 2,
       "sh": 2
@@ -1997,7 +2031,7 @@
     {
       "d": "2026-07-04",
       "h": "zoe.hale8",
-      "vv": 590,
+      "vv": 593,
       "lk": 6,
       "cm": 5,
       "sh": 2
@@ -2005,8 +2039,8 @@
     {
       "d": "2026-07-04",
       "h": "zoe.hale8",
-      "vv": 4305,
-      "lk": 59,
+      "vv": 4361,
+      "lk": 61,
       "cm": 30,
       "sh": 13
     },
@@ -2025,7 +2059,7 @@
     {
       "d": "2026-07-05",
       "h": "zoe.hale8",
-      "vv": 536,
+      "vv": 539,
       "lk": 10,
       "cm": 3,
       "sh": 2
@@ -2033,7 +2067,7 @@
     {
       "d": "2026-07-06",
       "h": "zoe.hale8",
-      "vv": 588,
+      "vv": 601,
       "lk": 6,
       "cm": 3,
       "sh": 1,
@@ -2057,7 +2091,7 @@
     {
       "d": "2026-07-08",
       "h": "zoe.hale8",
-      "vv": 759,
+      "vv": 769,
       "lk": 12,
       "cm": 1,
       "sh": 1,
@@ -2081,7 +2115,7 @@
     {
       "d": "2026-07-10",
       "h": "zoe.hale8",
-      "vv": 1028,
+      "vv": 1056,
       "lk": 20,
       "cm": 5,
       "sh": 1,
@@ -2093,7 +2127,7 @@
     {
       "d": "2026-07-11",
       "h": "zoe.hale8",
-      "vv": 226,
+      "vv": 227,
       "lk": 5,
       "cm": 1,
       "sh": 2,
@@ -2113,7 +2147,7 @@
     {
       "d": "2026-07-12",
       "h": "zoe.hale8",
-      "vv": 789,
+      "vv": 794,
       "lk": 11,
       "cm": 6,
       "sh": 4,
@@ -2140,7 +2174,11 @@
       "vv": 109,
       "lk": 5,
       "cm": 2,
-      "sh": 0
+      "sh": 0,
+      "lt": "现房",
+      "ln": "DXB-AC03BB",
+      "lc": "(未知小区)",
+      "lx": "1室2卫"
     },
     {
       "d": "2026-07-14",
@@ -2148,12 +2186,16 @@
       "vv": 154,
       "lk": 4,
       "cm": 0,
-      "sh": 1
+      "sh": 1,
+      "lt": "现房",
+      "ln": "DXB-AC03BB",
+      "lc": "(未知小区)",
+      "lx": "1室2卫"
     },
     {
       "d": "2026-07-15",
       "h": "zoe.hale8",
-      "vv": 121,
+      "vv": 122,
       "lk": 2,
       "cm": 0,
       "sh": 0,
@@ -2165,7 +2207,7 @@
     {
       "d": "2026-07-16",
       "h": "zoe.hale8",
-      "vv": 115,
+      "vv": 116,
       "lk": 4,
       "cm": 0,
       "sh": 1,
@@ -2177,7 +2219,7 @@
     {
       "d": "2026-07-17",
       "h": "zoe.hale8",
-      "vv": 119,
+      "vv": 122,
       "lk": 2,
       "cm": 2,
       "sh": 0,
@@ -2189,7 +2231,7 @@
     {
       "d": "2026-07-18",
       "h": "zoe.hale8",
-      "vv": 113,
+      "vv": 115,
       "lk": 0,
       "cm": 0,
       "sh": 0,
@@ -2201,23 +2243,31 @@
     {
       "d": "2026-07-18",
       "h": "zoe.hale8",
-      "vv": 131,
+      "vv": 133,
       "lk": 1,
       "cm": 0,
-      "sh": 1
+      "sh": 1,
+      "lt": "现房",
+      "ln": "DXB-AC03BB",
+      "lc": "(未知小区)",
+      "lx": "1室2卫"
     },
     {
       "d": "2026-07-19",
       "h": "zoe.hale8",
-      "vv": 109,
+      "vv": 113,
       "lk": 6,
       "cm": 0,
-      "sh": 0
+      "sh": 0,
+      "lt": "现房",
+      "ln": "DXB-AC03BB",
+      "lc": "(未知小区)",
+      "lx": "1室2卫"
     },
     {
       "d": "2026-07-19",
       "h": "zoe.hale8",
-      "vv": 120,
+      "vv": 124,
       "lk": 1,
       "cm": 0,
       "sh": 0,
@@ -2229,7 +2279,7 @@
     {
       "d": "2026-07-20",
       "h": "zoe.hale8",
-      "vv": 102,
+      "vv": 105,
       "lk": 1,
       "cm": 0,
       "sh": 0,
@@ -2237,6 +2287,18 @@
       "ln": "DXB-D1DE5C",
       "lc": "Jumeirah Village Circle",
       "lx": "Studio"
+    },
+    {
+      "d": "2026-07-21",
+      "h": "zoe.hale8",
+      "vv": 92,
+      "lk": 3,
+      "cm": 2,
+      "sh": 0,
+      "lt": "现房",
+      "ln": "DXB-B3D9D8",
+      "lc": "Burj Khalifa",
+      "lx": "3室2卫"
     },
     {
       "d": "2026-06-23",
@@ -2285,7 +2347,7 @@
     {
       "d": "2026-06-29",
       "h": "lylaluxuryhome2",
-      "vv": 603,
+      "vv": 605,
       "lk": 15,
       "cm": 6,
       "sh": 1,
@@ -2329,7 +2391,7 @@
     {
       "d": "2026-07-06",
       "h": "lylaluxuryhome2",
-      "vv": 500,
+      "vv": 510,
       "lk": 13,
       "cm": 8,
       "sh": 0
@@ -2349,7 +2411,7 @@
     {
       "d": "2026-07-11",
       "h": "lylaluxuryhome2",
-      "vv": 481,
+      "vv": 483,
       "lk": 16,
       "cm": 0,
       "sh": 0,
@@ -2361,7 +2423,7 @@
     {
       "d": "2026-07-12",
       "h": "lylaluxuryhome2",
-      "vv": 495,
+      "vv": 496,
       "lk": 12,
       "cm": 0,
       "sh": 0,
@@ -2373,7 +2435,7 @@
     {
       "d": "2026-07-14",
       "h": "lylaluxuryhome2",
-      "vv": 373,
+      "vv": 378,
       "lk": 15,
       "cm": 2,
       "sh": 0,
@@ -2385,7 +2447,7 @@
     {
       "d": "2026-07-17",
       "h": "lylaluxuryhome2",
-      "vv": 173,
+      "vv": 176,
       "lk": 4,
       "cm": 0,
       "sh": 0,
@@ -2397,7 +2459,7 @@
     {
       "d": "2026-07-18",
       "h": "lylaluxuryhome2",
-      "vv": 492,
+      "vv": 498,
       "lk": 10,
       "cm": 0,
       "sh": 0,
@@ -2409,7 +2471,7 @@
     {
       "d": "2026-07-19",
       "h": "lylaluxuryhome2",
-      "vv": 205,
+      "vv": 212,
       "lk": 5,
       "cm": 2,
       "sh": 0,
@@ -2419,21 +2481,9 @@
       "lx": "Studio"
     },
     {
-      "d": "2026-06-22",
-      "h": "mahnoor.binte6",
-      "vv": 365,
-      "lk": 3,
-      "cm": 0,
-      "sh": 0,
-      "lt": "现房",
-      "ln": "DXB-7DFE58",
-      "lc": "Ayala On The Park",
-      "lx": "1室0卫"
-    },
-    {
       "d": "2026-06-23",
       "h": "mahnoor.binte6",
-      "vv": 524,
+      "vv": 525,
       "lk": 9,
       "cm": 0,
       "sh": 0
@@ -2441,7 +2491,7 @@
     {
       "d": "2026-06-24",
       "h": "mahnoor.binte6",
-      "vv": 750,
+      "vv": 751,
       "lk": 11,
       "cm": 3,
       "sh": 2,
@@ -2453,7 +2503,7 @@
     {
       "d": "2026-06-25",
       "h": "mahnoor.binte6",
-      "vv": 494,
+      "vv": 495,
       "lk": 4,
       "cm": 0,
       "sh": 0,
@@ -2465,7 +2515,7 @@
     {
       "d": "2026-06-26",
       "h": "mahnoor.binte6",
-      "vv": 511,
+      "vv": 512,
       "lk": 11,
       "cm": 1,
       "sh": 1,
@@ -2477,7 +2527,7 @@
     {
       "d": "2026-06-27",
       "h": "mahnoor.binte6",
-      "vv": 565,
+      "vv": 566,
       "lk": 8,
       "cm": 6,
       "sh": 1
@@ -2485,7 +2535,7 @@
     {
       "d": "2026-06-28",
       "h": "mahnoor.binte6",
-      "vv": 484,
+      "vv": 485,
       "lk": 10,
       "cm": 1,
       "sh": 0,
@@ -2497,7 +2547,7 @@
     {
       "d": "2026-06-28",
       "h": "mahnoor.binte6",
-      "vv": 490,
+      "vv": 492,
       "lk": 4,
       "cm": 0,
       "sh": 0,
@@ -2509,7 +2559,7 @@
     {
       "d": "2026-06-29",
       "h": "mahnoor.binte6",
-      "vv": 367,
+      "vv": 368,
       "lk": 4,
       "cm": 0,
       "sh": 0,
@@ -2521,7 +2571,7 @@
     {
       "d": "2026-06-30",
       "h": "mahnoor.binte6",
-      "vv": 628,
+      "vv": 629,
       "lk": 10,
       "cm": 0,
       "sh": 1,
@@ -2533,7 +2583,7 @@
     {
       "d": "2026-07-01",
       "h": "mahnoor.binte6",
-      "vv": 430,
+      "vv": 431,
       "lk": 5,
       "cm": 4,
       "sh": 0
@@ -2541,7 +2591,7 @@
     {
       "d": "2026-07-02",
       "h": "mahnoor.binte6",
-      "vv": 110,
+      "vv": 111,
       "lk": 5,
       "cm": 4,
       "sh": 3
@@ -2549,7 +2599,7 @@
     {
       "d": "2026-07-03",
       "h": "mahnoor.binte6",
-      "vv": 288,
+      "vv": 289,
       "lk": 7,
       "cm": 2,
       "sh": 0,
@@ -2561,7 +2611,7 @@
     {
       "d": "2026-07-04",
       "h": "mahnoor.binte6",
-      "vv": 106,
+      "vv": 107,
       "lk": 3,
       "cm": 0,
       "sh": 0,
@@ -2573,7 +2623,7 @@
     {
       "d": "2026-07-04",
       "h": "mahnoor.binte6",
-      "vv": 126,
+      "vv": 128,
       "lk": 2,
       "cm": 0,
       "sh": 0,
@@ -2585,7 +2635,7 @@
     {
       "d": "2026-07-05",
       "h": "mahnoor.binte6",
-      "vv": 155,
+      "vv": 156,
       "lk": 8,
       "cm": 0,
       "sh": 0,
@@ -2597,7 +2647,7 @@
     {
       "d": "2026-07-05",
       "h": "mahnoor.binte6",
-      "vv": 135,
+      "vv": 136,
       "lk": 1,
       "cm": 0,
       "sh": 0,
@@ -2609,7 +2659,7 @@
     {
       "d": "2026-07-06",
       "h": "mahnoor.binte6",
-      "vv": 205,
+      "vv": 206,
       "lk": 3,
       "cm": 0,
       "sh": 0,
@@ -2621,7 +2671,7 @@
     {
       "d": "2026-07-07",
       "h": "mahnoor.binte6",
-      "vv": 166,
+      "vv": 167,
       "lk": 3,
       "cm": 0,
       "sh": 0,
@@ -2633,7 +2683,7 @@
     {
       "d": "2026-07-08",
       "h": "mahnoor.binte6",
-      "vv": 155,
+      "vv": 156,
       "lk": 4,
       "cm": 2,
       "sh": 0,
@@ -2645,7 +2695,7 @@
     {
       "d": "2026-07-09",
       "h": "mahnoor.binte6",
-      "vv": 441,
+      "vv": 442,
       "lk": 4,
       "cm": 1,
       "sh": 0,
@@ -2657,7 +2707,7 @@
     {
       "d": "2026-07-10",
       "h": "mahnoor.binte6",
-      "vv": 143,
+      "vv": 145,
       "lk": 8,
       "cm": 0,
       "sh": 0,
@@ -2669,7 +2719,7 @@
     {
       "d": "2026-07-11",
       "h": "mahnoor.binte6",
-      "vv": 218,
+      "vv": 219,
       "lk": 8,
       "cm": 1,
       "sh": 1,
@@ -2681,7 +2731,7 @@
     {
       "d": "2026-07-11",
       "h": "mahnoor.binte6",
-      "vv": 240,
+      "vv": 241,
       "lk": 9,
       "cm": 2,
       "sh": 0,
@@ -2693,7 +2743,7 @@
     {
       "d": "2026-07-12",
       "h": "mahnoor.binte6",
-      "vv": 123,
+      "vv": 126,
       "lk": 4,
       "cm": 3,
       "sh": 0,
@@ -2705,7 +2755,7 @@
     {
       "d": "2026-07-13",
       "h": "mahnoor.binte6",
-      "vv": 475,
+      "vv": 476,
       "lk": 4,
       "cm": 2,
       "sh": 0,
@@ -2717,7 +2767,7 @@
     {
       "d": "2026-07-14",
       "h": "mahnoor.binte6",
-      "vv": 259,
+      "vv": 260,
       "lk": 5,
       "cm": 0,
       "sh": 0,
@@ -2729,7 +2779,7 @@
     {
       "d": "2026-07-15",
       "h": "mahnoor.binte6",
-      "vv": 430,
+      "vv": 432,
       "lk": 9,
       "cm": 5,
       "sh": 0
@@ -2737,7 +2787,7 @@
     {
       "d": "2026-07-16",
       "h": "mahnoor.binte6",
-      "vv": 205,
+      "vv": 206,
       "lk": 1,
       "cm": 0,
       "sh": 0,
@@ -2749,7 +2799,7 @@
     {
       "d": "2026-07-17",
       "h": "mahnoor.binte6",
-      "vv": 254,
+      "vv": 255,
       "lk": 3,
       "cm": 0,
       "sh": 0
@@ -2757,7 +2807,7 @@
     {
       "d": "2026-07-18",
       "h": "mahnoor.binte6",
-      "vv": 89,
+      "vv": 95,
       "lk": 4,
       "cm": 1,
       "sh": 0,
@@ -2769,7 +2819,7 @@
     {
       "d": "2026-07-18",
       "h": "mahnoor.binte6",
-      "vv": 133,
+      "vv": 138,
       "lk": 5,
       "cm": 0,
       "sh": 0,
@@ -2781,7 +2831,7 @@
     {
       "d": "2026-07-19",
       "h": "mahnoor.binte6",
-      "vv": 85,
+      "vv": 89,
       "lk": 3,
       "cm": 1,
       "sh": 2,
@@ -2793,18 +2843,22 @@
     {
       "d": "2026-07-20",
       "h": "mahnoor.binte6",
-      "vv": 190,
-      "lk": 3,
-      "cm": 0,
+      "vv": 291,
+      "lk": 4,
+      "cm": 1,
       "sh": 0
     },
     {
-      "d": "2026-06-22",
-      "h": "villalifedubai",
-      "vv": 440,
-      "lk": 6,
-      "cm": 3,
-      "sh": 0
+      "d": "2026-07-21",
+      "h": "mahnoor.binte6",
+      "vv": 269,
+      "lk": 5,
+      "cm": 1,
+      "sh": 0,
+      "lt": "现房",
+      "ln": "DXB-DF0F95",
+      "lc": "Park Horizon",
+      "lx": "2室"
     },
     {
       "d": "2026-06-23",
@@ -2913,7 +2967,7 @@
     {
       "d": "2026-06-30",
       "h": "villalifedubai",
-      "vv": 481,
+      "vv": 483,
       "lk": 4,
       "cm": 2,
       "sh": 0,
@@ -2925,7 +2979,7 @@
     {
       "d": "2026-07-01",
       "h": "villalifedubai",
-      "vv": 484,
+      "vv": 485,
       "lk": 12,
       "cm": 3,
       "sh": 1
@@ -2945,7 +2999,7 @@
     {
       "d": "2026-07-03",
       "h": "villalifedubai",
-      "vv": 518,
+      "vv": 520,
       "lk": 7,
       "cm": 2,
       "sh": 0,
@@ -2984,7 +3038,11 @@
       "vv": 133,
       "lk": 10,
       "cm": 3,
-      "sh": 0
+      "sh": 0,
+      "lt": "现房",
+      "ln": "DXB-AC03BB",
+      "lc": "(未知小区)",
+      "lx": "1室2卫"
     },
     {
       "d": "2026-07-06",
@@ -3061,7 +3119,7 @@
     {
       "d": "2026-07-12",
       "h": "villalifedubai",
-      "vv": 267,
+      "vv": 268,
       "lk": 10,
       "cm": 0,
       "sh": 1,
@@ -3109,8 +3167,8 @@
     {
       "d": "2026-07-15",
       "h": "villalifedubai",
-      "vv": 322,
-      "lk": 9,
+      "vv": 323,
+      "lk": 10,
       "cm": 2,
       "sh": 0,
       "lt": "现房",
@@ -3121,8 +3179,8 @@
     {
       "d": "2026-07-16",
       "h": "villalifedubai",
-      "vv": 276,
-      "lk": 3,
+      "vv": 277,
+      "lk": 4,
       "cm": 0,
       "sh": 0,
       "lt": "现房",
@@ -3133,8 +3191,8 @@
     {
       "d": "2026-07-17",
       "h": "villalifedubai",
-      "vv": 120,
-      "lk": 5,
+      "vv": 121,
+      "lk": 6,
       "cm": 2,
       "sh": 0,
       "lt": "现房",
@@ -3145,24 +3203,24 @@
     {
       "d": "2026-07-18",
       "h": "villalifedubai",
-      "vv": 79,
-      "lk": 3,
+      "vv": 81,
+      "lk": 4,
       "cm": 0,
       "sh": 0
     },
     {
       "d": "2026-07-18",
       "h": "villalifedubai",
-      "vv": 92,
-      "lk": 6,
+      "vv": 93,
+      "lk": 7,
       "cm": 1,
       "sh": 0
     },
     {
       "d": "2026-07-19",
       "h": "villalifedubai",
-      "vv": 103,
-      "lk": 2,
+      "vv": 106,
+      "lk": 3,
       "cm": 0,
       "sh": 0,
       "lt": "现房",
@@ -3173,8 +3231,8 @@
     {
       "d": "2026-07-19",
       "h": "villalifedubai",
-      "vv": 78,
-      "lk": 1,
+      "vv": 82,
+      "lk": 2,
       "cm": 0,
       "sh": 0,
       "lt": "期房",
@@ -3185,9 +3243,9 @@
     {
       "d": "2026-07-20",
       "h": "villalifedubai",
-      "vv": 225,
-      "lk": 4,
-      "cm": 0,
+      "vv": 300,
+      "lk": 7,
+      "cm": 1,
       "sh": 0,
       "lt": "现房",
       "ln": "DXB-600FB7",
@@ -3195,16 +3253,16 @@
       "lx": "Vacant | Half Floor"
     },
     {
-      "d": "2026-06-22",
-      "h": "lilyokproperty",
-      "vv": 2016,
-      "lk": 19,
-      "cm": 18,
-      "sh": 5,
+      "d": "2026-07-21",
+      "h": "villalifedubai",
+      "vv": 194,
+      "lk": 1,
+      "cm": 1,
+      "sh": 0,
       "lt": "现房",
-      "ln": "DXB-82E729",
-      "lc": "Mulberry",
-      "lx": "3室5卫"
+      "ln": "DXB-7E4861",
+      "lc": "SOBHA Hartland",
+      "lx": "3室1卫"
     },
     {
       "d": "2026-06-23",
@@ -3225,7 +3283,7 @@
     {
       "d": "2026-06-25",
       "h": "lilyokproperty",
-      "vv": 710,
+      "vv": 712,
       "lk": 18,
       "cm": 4,
       "sh": 2
@@ -3233,7 +3291,7 @@
     {
       "d": "2026-06-26",
       "h": "lilyokproperty",
-      "vv": 534,
+      "vv": 535,
       "lk": 12,
       "cm": 2,
       "sh": 3
@@ -3241,7 +3299,7 @@
     {
       "d": "2026-06-27",
       "h": "lilyokproperty",
-      "vv": 467,
+      "vv": 468,
       "lk": 15,
       "cm": 1,
       "sh": 0
@@ -3249,7 +3307,7 @@
     {
       "d": "2026-06-28",
       "h": "lilyokproperty",
-      "vv": 408,
+      "vv": 409,
       "lk": 7,
       "cm": 2,
       "sh": 0
@@ -3257,7 +3315,7 @@
     {
       "d": "2026-06-30",
       "h": "lilyokproperty",
-      "vv": 344,
+      "vv": 345,
       "lk": 13,
       "cm": 2,
       "sh": 2
@@ -3265,7 +3323,7 @@
     {
       "d": "2026-07-01",
       "h": "lilyokproperty",
-      "vv": 276,
+      "vv": 277,
       "lk": 3,
       "cm": 2,
       "sh": 0
@@ -3273,7 +3331,7 @@
     {
       "d": "2026-07-02",
       "h": "lilyokproperty",
-      "vv": 472,
+      "vv": 473,
       "lk": 13,
       "cm": 1,
       "sh": 1,
@@ -3285,7 +3343,7 @@
     {
       "d": "2026-07-03",
       "h": "lilyokproperty",
-      "vv": 783,
+      "vv": 784,
       "lk": 20,
       "cm": 0,
       "sh": 1,
@@ -3297,7 +3355,7 @@
     {
       "d": "2026-07-04",
       "h": "lilyokproperty",
-      "vv": 519,
+      "vv": 521,
       "lk": 8,
       "cm": 5,
       "sh": 0
@@ -3305,7 +3363,7 @@
     {
       "d": "2026-07-05",
       "h": "lilyokproperty",
-      "vv": 408,
+      "vv": 409,
       "lk": 11,
       "cm": 4,
       "sh": 0
@@ -3313,7 +3371,7 @@
     {
       "d": "2026-07-08",
       "h": "lilyokproperty",
-      "vv": 413,
+      "vv": 417,
       "lk": 11,
       "cm": 3,
       "sh": 0,
@@ -3325,7 +3383,7 @@
     {
       "d": "2026-07-09",
       "h": "lilyokproperty",
-      "vv": 484,
+      "vv": 487,
       "lk": 12,
       "cm": 3,
       "sh": 0
@@ -3333,23 +3391,23 @@
     {
       "d": "2026-07-10",
       "h": "lilyokproperty",
-      "vv": 595,
-      "lk": 12,
+      "vv": 604,
+      "lk": 13,
       "cm": 4,
       "sh": 0
     },
     {
       "d": "2026-07-11",
       "h": "lilyokproperty",
-      "vv": 625,
-      "lk": 18,
+      "vv": 632,
+      "lk": 19,
       "cm": 1,
       "sh": 0
     },
     {
       "d": "2026-07-13",
       "h": "lilyokproperty",
-      "vv": 432,
+      "vv": 437,
       "lk": 16,
       "cm": 0,
       "sh": 0
@@ -3357,7 +3415,7 @@
     {
       "d": "2026-07-14",
       "h": "lilyokproperty",
-      "vv": 144,
+      "vv": 149,
       "lk": 8,
       "cm": 1,
       "sh": 0
@@ -3365,40 +3423,44 @@
     {
       "d": "2026-07-15",
       "h": "lilyokproperty",
-      "vv": 148,
+      "vv": 155,
       "lk": 6,
       "cm": 1,
-      "sh": 0
+      "sh": 0,
+      "lt": "现房",
+      "ln": "DXB-AC03BB",
+      "lc": "(未知小区)",
+      "lx": "1室2卫"
     },
     {
       "d": "2026-07-17",
       "h": "lilyokproperty",
-      "vv": 669,
+      "vv": 698,
       "lk": 19,
-      "cm": 6,
+      "cm": 7,
       "sh": 1
     },
     {
       "d": "2026-07-18",
       "h": "lilyokproperty",
-      "vv": 295,
-      "lk": 13,
+      "vv": 342,
+      "lk": 14,
       "cm": 4,
       "sh": 0
     },
     {
       "d": "2026-07-19",
       "h": "lilyokproperty",
-      "vv": 139,
-      "lk": 7,
+      "vv": 165,
+      "lk": 8,
       "cm": 1,
       "sh": 0
     },
     {
-      "d": "2026-06-22",
-      "h": "damacislands2",
-      "vv": 463,
-      "lk": 9,
+      "d": "2026-07-21",
+      "h": "lilyokproperty",
+      "vv": 162,
+      "lk": 5,
       "cm": 0,
       "sh": 0
     },
@@ -3557,7 +3619,7 @@
     {
       "d": "2026-07-04",
       "h": "damacislands2",
-      "vv": 564,
+      "vv": 569,
       "lk": 9,
       "cm": 5,
       "sh": 1,
@@ -3584,7 +3646,11 @@
       "vv": 140,
       "lk": 5,
       "cm": 0,
-      "sh": 0
+      "sh": 0,
+      "lt": "现房",
+      "ln": "DXB-AC03BB",
+      "lc": "(未知小区)",
+      "lx": "1室2卫"
     },
     {
       "d": "2026-07-05",
@@ -3645,7 +3711,7 @@
     {
       "d": "2026-07-10",
       "h": "damacislands2",
-      "vv": 590,
+      "vv": 593,
       "lk": 14,
       "cm": 3,
       "sh": 2,
@@ -3701,8 +3767,8 @@
     {
       "d": "2026-07-13",
       "h": "damacislands2",
-      "vv": 110,
-      "lk": 7,
+      "vv": 111,
+      "lk": 8,
       "cm": 0,
       "sh": 0,
       "lt": "期房",
@@ -3745,7 +3811,7 @@
     {
       "d": "2026-07-17",
       "h": "damacislands2",
-      "vv": 167,
+      "vv": 170,
       "lk": 6,
       "cm": 0,
       "sh": 0,
@@ -3757,7 +3823,7 @@
     {
       "d": "2026-07-18",
       "h": "damacislands2",
-      "vv": 281,
+      "vv": 294,
       "lk": 12,
       "cm": 2,
       "sh": 1,
@@ -3789,7 +3855,7 @@
     {
       "d": "2026-07-19",
       "h": "damacislands2",
-      "vv": 86,
+      "vv": 90,
       "lk": 4,
       "cm": 3,
       "sh": 0,
@@ -3801,7 +3867,7 @@
     {
       "d": "2026-07-20",
       "h": "damacislands2",
-      "vv": 122,
+      "vv": 180,
       "lk": 3,
       "cm": 0,
       "sh": 0,
@@ -3809,14 +3875,6 @@
       "ln": "DXB-E11AA7",
       "lc": "Jumeirah Village Circle",
       "lx": "1室2卫"
-    },
-    {
-      "d": "2026-06-22",
-      "h": "rofik.hossen04",
-      "vv": 464,
-      "lk": 5,
-      "cm": 1,
-      "sh": 0
     },
     {
       "d": "2026-06-23",
@@ -4121,7 +4179,7 @@
     {
       "d": "2026-07-13",
       "h": "rofik.hossen04",
-      "vv": 266,
+      "vv": 273,
       "lk": 9,
       "cm": 2,
       "sh": 0,
@@ -4133,7 +4191,7 @@
     {
       "d": "2026-07-14",
       "h": "rofik.hossen04",
-      "vv": 648,
+      "vv": 667,
       "lk": 17,
       "cm": 4,
       "sh": 1,
@@ -4157,7 +4215,7 @@
     {
       "d": "2026-07-16",
       "h": "rofik.hossen04",
-      "vv": 231,
+      "vv": 236,
       "lk": 11,
       "cm": 0,
       "sh": 0,
@@ -4169,7 +4227,7 @@
     {
       "d": "2026-07-17",
       "h": "rofik.hossen04",
-      "vv": 101,
+      "vv": 102,
       "lk": 2,
       "cm": 0,
       "sh": 0
@@ -4177,7 +4235,7 @@
     {
       "d": "2026-07-18",
       "h": "rofik.hossen04",
-      "vv": 110,
+      "vv": 112,
       "lk": 1,
       "cm": 1,
       "sh": 0,
@@ -4189,7 +4247,7 @@
     {
       "d": "2026-07-18",
       "h": "rofik.hossen04",
-      "vv": 224,
+      "vv": 269,
       "lk": 5,
       "cm": 2,
       "sh": 0,
@@ -4201,9 +4259,9 @@
     {
       "d": "2026-07-19",
       "h": "rofik.hossen04",
-      "vv": 242,
-      "lk": 9,
-      "cm": 0,
+      "vv": 273,
+      "lk": 10,
+      "cm": 1,
       "sh": 0,
       "lt": "现房",
       "ln": "DXB-600FB7",
@@ -4213,9 +4271,9 @@
     {
       "d": "2026-07-19",
       "h": "rofik.hossen04",
-      "vv": 237,
+      "vv": 245,
       "lk": 4,
-      "cm": 1,
+      "cm": 2,
       "sh": 1,
       "lt": "现房",
       "ln": "DXB-62A70E",
@@ -4225,7 +4283,7 @@
     {
       "d": "2026-07-20",
       "h": "rofik.hossen04",
-      "vv": 85,
+      "vv": 87,
       "lk": 4,
       "cm": 1,
       "sh": 0,
@@ -4233,57 +4291,21 @@
       "ln": "DXB-7C1151",
       "lc": "Jumeirah Village Circle",
       "lx": "2室0卫"
+    },
+    {
+      "d": "2026-07-21",
+      "h": "rofik.hossen04",
+      "vv": 86,
+      "lk": 0,
+      "cm": 0,
+      "sh": 0,
+      "lt": "现房",
+      "ln": "DXB-E11AA7",
+      "lc": "Jumeirah Village Circle",
+      "lx": "1室2卫"
     }
   ],
   "leads": [
-    {
-      "d": "2026-06-22",
-      "h": "lilyokproperty",
-      "lid": "",
-      "oc": "",
-      "q": 1,
-      "m": 0
-    },
-    {
-      "d": "2026-06-22",
-      "h": "lilyokproperty",
-      "lid": "",
-      "oc": "",
-      "q": 0,
-      "m": 0
-    },
-    {
-      "d": "2026-06-22",
-      "h": "lylaluxuryhome2",
-      "lid": "",
-      "oc": "",
-      "q": 0,
-      "m": 0
-    },
-    {
-      "d": "2026-06-22",
-      "h": "lilyokproperty",
-      "lid": "DXB-82E729",
-      "oc": "",
-      "q": 0,
-      "m": 0
-    },
-    {
-      "d": "2026-06-22",
-      "h": "lylaluxuryhome2",
-      "lid": "",
-      "oc": "",
-      "q": 1,
-      "m": 1
-    },
-    {
-      "d": "2026-06-22",
-      "h": "dubai.house1",
-      "lid": "",
-      "oc": "",
-      "q": 0,
-      "m": 0
-    },
     {
       "d": "2026-06-23",
       "h": "lylaluxuryhome2",
@@ -5151,7 +5173,7 @@
     {
       "d": "2026-07-15",
       "h": "lilyokproperty",
-      "lid": "",
+      "lid": "DXB-AC03BB",
       "oc": "",
       "q": 0,
       "m": 0
@@ -5175,7 +5197,7 @@
     {
       "d": "2026-07-16",
       "h": "lilyokproperty",
-      "lid": "",
+      "lid": "DXB-AC03BB",
       "oc": "",
       "q": 0,
       "m": 0
@@ -5291,13 +5313,57 @@
       "oc": "",
       "q": 1,
       "m": 0
+    },
+    {
+      "d": "2026-07-21",
+      "h": "lylaluxuryhome2",
+      "lid": "",
+      "oc": "",
+      "q": 0,
+      "m": 0
+    },
+    {
+      "d": "2026-07-21",
+      "h": "lilyokproperty",
+      "lid": "DXB-2A0938",
+      "oc": "",
+      "q": 0,
+      "m": 0
+    },
+    {
+      "d": "2026-07-21",
+      "h": "zoe.hale8",
+      "lid": "",
+      "oc": "",
+      "q": 0,
+      "m": 0
+    },
+    {
+      "d": "2026-07-21",
+      "h": "zoe.hale8",
+      "lid": "DXB-7C1151",
+      "oc": "",
+      "q": 0,
+      "m": 0
+    },
+    {
+      "d": "2026-07-21",
+      "h": "rofik.hossen04",
+      "lid": "",
+      "oc": "",
+      "q": 0,
+      "m": 0
+    },
+    {
+      "d": "2026-07-21",
+      "h": "zoe.hale8",
+      "lid": "",
+      "oc": "",
+      "q": 0,
+      "m": 0
     }
   ],
   "listing_meta": {
-    "DXB-82E729": {
-      "lc": "Mulberry",
-      "lx": "3室5卫"
-    },
     "DXB-BEBBCE": {
       "lc": "Grande",
       "lx": "Studio"
@@ -5354,16 +5420,24 @@
       "lc": "Binghatti Venus",
       "lx": "1室"
     },
+    "DXB-AC03BB": {
+      "lc": "",
+      "lx": "1室2卫"
+    },
     "DXB-600FB7": {
       "lc": "Le Reve",
       "lx": "Vacant | Half Floor"
+    },
+    "DXB-2A0938": {
+      "lc": "Tilal Al Ghaf PARK VIEW",
+      "lx": "5室"
     }
   },
   "coverage": {
-    "videos": 285,
-    "matched": 196,
-    "no_code": 79,
-    "unresolved": 10
+    "videos": 284,
+    "matched": 206,
+    "no_code": 77,
+    "unresolved": 1
   },
   "notes": {
     "leads": "线索来自 CRM，按来源账号聚合：新增=全部线索，合格=进入Qualified及以后，约面=进入Viewing及以后",
